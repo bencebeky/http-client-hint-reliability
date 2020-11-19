@@ -4,9 +4,9 @@
 
 HTTP                                                         D. Benjamin
 Internet-Draft                                                Google LLC
-Updates: ietf-httpbis-client-hints (if approved)        18 November 2020
+Updates: ietf-httpbis-client-hints (if approved)        19 November 2020
 Intended status: Experimental                                           
-Expires: 22 May 2021
+Expires: 23 May 2021
 
 
                         Client Hint Reliability
@@ -41,7 +41,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 22 May 2021.
+   This Internet-Draft will expire on 23 May 2021.
 
 Copyright Notice
 
@@ -388,7 +388,7 @@ Table of Contents
       proactively notified of origin server changes.
 
    *  HTTP/2 and HTTP/3 allow connection reuse across multiple origins
-      (Section 9.1.1 of [RFC7540] nad Section 3.4 of
+      (Section 9.1.1 of [RFC7540] and Section 3.4 of
       [I-D.ietf-quic-http]).  Some origins may not be listed in the
       ACCEPT_CH frame, particularly if the server used a wildcard X.509
       certificate.
